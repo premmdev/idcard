@@ -1,0 +1,71 @@
+.container-fluid{
+    padding: 5% 10%;
+}
+
+.col{
+    text-align: center;
+    margin-top: 10px;
+}
+.mycols{
+    margin-bottom: 12px;
+}
+
+.col-md-6{
+    padding: 12px;
+}
+
+img{
+    width: 250px;
+    height: 250px;
+}
+
+.title{
+    background-color: yellow;
+    /* color: white; */
+    text-align: center;
+    display: none;
+}
+
+.title h1{
+    text-transform: uppercase;
+    margin-top: 8px;
+    font-size: 29px;
+}
+.title h2{
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.address{
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+
+.co-address{
+    font-size: 11px;
+}
+
+.logo{
+    height: 100px;
+    width: 150px;
+    margin-top: 8px;
+}
+
+.sign{
+    display: none;
+}
+
+.output{
+    display: none;
+}
+
+.print{
+    /* display: none; */
+    text-align: center;
+}
+
+@media print{
+    .print{
+        display: none;
+    }
+}
