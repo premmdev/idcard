@@ -9,6 +9,10 @@ function go(){
     var myMobile = document.getElementById("mobile").value;
     var myDoi = document.getElementById("doi").value;
     var myValid = document.getElementById("validity").value;
+    var myDob = document.getElementById("dob").value;
+    var myEmail = document.getElementById("email").value;
+    var myDoj = document.getElementById("doj").value;
+    var myBlood = document.getElementById("bloodgroup").value;
 
 
     document.getElementsByClassName("name")[0].innerHTML = myName;
@@ -19,6 +23,10 @@ function go(){
     document.getElementsByClassName("mobile")[0].innerHTML = myMobile;
     document.getElementsByClassName("doi")[0].innerHTML = myDoi;
     document.getElementsByClassName("valid")[0].innerHTML = myValid;
+    document.getElementsByClassName("dob")[0].innerHTML = myDob;
+    document.getElementsByClassName("email")[0].innerHTML = myEmail;
+    document.getElementsByClassName("doj")[0].innerHTML = myDoj;
+    document.getElementsByClassName("bloodgroup")[0].innerHTML = myBlood;
 
     document.querySelector(".input").style.display = "none";
     document.querySelector(".title").style.display = "initial";
